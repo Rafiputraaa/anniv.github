@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+
+.profile h2, h5 {
+    color: white;
+}
+
+.profile h5 {
+    transform: translateY(-10px);
+}
+
+.profileImage {
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    background-color: white;
+}
+
+.about h1 {
+    margin-top: -1rem;
+    margin-bottom:5rem;
+}
+
+.about img {
+    width: 20vw;
+    height: 30vw;
+    margin: 2rem;
+}
+
+.happy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9vw;
+}
+
+.about {
+    background: linear-gradient(#fffeff 0%, #ffffffd7 40%, #ffffff00 100%);
+}
+
+.wish h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.wishes {
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.memories {
+    margin: 10vw;
+}
+
+.carousel-inner {
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.memo h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10vw;
+}
+
+.memo {
+    background: linear-gradient(#ffffff00 100%, #ffffffd7 40%,#000000 0%);
+}
+
+.memo h4, h5{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
